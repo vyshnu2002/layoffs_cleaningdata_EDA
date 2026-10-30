@@ -1,2 +1,23 @@
-# layoffs_cleaningdata_EDA
-SQL project using MySQL Workbench on a global layoffs dataset. Cleaned the raw data by removing duplicates, standardizing text and dates, and handling NULL and blank values. Then explored layoffs by company, country, industry, and year using GROUP BY, CTEs, and window functions, including a rolling monthly total of layoffs.
+# Layoffs Data Cleaning & Exploratory Data Analysis (MySQL)
+
+## Overview
+Cleaned and analyzed a global layoffs dataset using MySQL.
+
+## Data Cleaning Steps
+- Removed duplicates
+- Standardized data (company names, industries, countries, dates)
+- Handled NULL and blank values
+- Removed unnecessary rows/columns
+
+## Exploratory Analysis
+- Total layoffs by country, company, industry and year
+- Rolling total of layoffs by month
+- Top companies laying off per year (using CTEs and window functions)
+
+## Tools
+MySQL 8.0, MySQL Workbench
+
+## Files
+- `data_cleaning.sql`
+- `exploratory_data_analysis.sql`
+- `layoffs.csv`
